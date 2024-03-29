@@ -5,6 +5,9 @@
   "description": "Demonstration UI for Leonardo",
   "repository": "git@github.com:adobe/leonardo.git",
   "author": "Nate Baldwin <nbaldwin@adobe.com>",
+  "scripts": {
+    "dev": "parcel src/index.html"
+  },
   "dependencies": {
     "@adobe/focus-ring-polyfill": "^0.1.5",
     "@adobe/leonardo-contrast-colors": "workspace:^",
